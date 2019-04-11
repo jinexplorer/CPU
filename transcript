@@ -10,250 +10,27 @@
 # //
 # OpenFile D:/os_practica/sc1cpu/sc1cpu.mpf 
 # Loading project sc1cpu
-# Compile of sccpu.v was successful.
-# Compile of PC.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-run
-quit -sim
-# Compile of sccpu.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-run
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/clk \
-sim:/sccomp_tb/U_SCCOMP/PC
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/instr
-restart
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/NPC
-restart
-run
-quit -sim
-# Compile of sccpu.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/clk \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/instr \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/PC \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/NPC
-run
-run
-quit -sim
-# Compile of sccpu.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/clk \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/instr \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/PC \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/NPC
-run
-quit -sim
-# Compile of sccpu.v failed with 1 errors.
-# Compile of sccpu.v failed with 1 errors.
-# Compile of sccpu.v was successful.
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# internal error on MenuItemCan 
-# m is .mBar.activewindowx label is Mouse Mode state is normal 
-#  Trace back:  
-#    <5: ::Vsimmenu::MenuItemCan .mBar.activewindowx {Mouse Mode} normal 
-#    >4: ::.main_pane.wave.interior.cs.body.pw.wf.tree Action .main_pane.wave SetMenuState {{can_format {::Vsimmenu::MenuItemCan .mBar.activewindowx Format}} {can_edit_wave {::Vsimmenu::MenuItemCan .mBar.activewindowx {Wave Editor}}} {can_combine_signals {::Vsimmenu::MenuItemCan .mBar.activewindowx {Combine Signals...}}} {can_extract_bus {::Vsimmenu::MenuItemCan .mBar.activewindowx {Extract/Pad Bus...}}} {can_split_bus {::Vsimmenu::MenuItemCan .mBar.activewindowx {Split Bus...}}} {can_group {::Vsimmenu::MenuItemCan .mBar.activewindowx Group...}} {can_ungroup {::Vsimmenu::MenuItemCan .mBar.activewindowx Ungroup}} {can_object_declaration {::Vsimmenu::MenuItemCan .mBar.activewindowx {Object Declaration}}} {can_refresh {::Vsimmenu::MenuItemCan .mBar.activewindowx {Refresh Display}}} {can_assrtdbg {::Vsimmenu::MenuItemCan .mBar.activewindowx {Assertion Debug}}} {can_zoom {::Vsimmenu::MenuItemCan .mBar.activewindowx Zoom}} {can_expand_menu {::Vsimmenu::MenuItemCan .mBar.activewindowx {Expanded Time}}} {can_examine {::Vsimmenu::MenuItemCan .mBar.activewindowx Examine...}} {can_force {::Vsimmenu::MenuItemCan .mBar.activewindowx Force...}} {can_noforce {::Vsimmenu::MenuItemCan .mBar.activewindowx NoForce}} {can_clock {::Vsimmenu::MenuItemCan .mBar.activewindowx Clock...}} {can_mousemode {::Vsimmenu::MenuItemCan .mBar.activewindowx {Mouse Mode}}} {can_cursors {::Vsimmenu::MenuItemCan .mBar.activewindowx Cursors}} {can_wave_delete_pane {::Vsimmenu::MenuItemCan .mBar.activewindowx {Delete Window Pane (q)}}} {can_wave_remove_all {::Vsimmenu::MenuItemCan .mBar.activewindowx {Remove All}}} {can_signalsearch {::Vsimmenu::MenuItemCan .mBar.activewindowx {Signal Search...}}} {can_vbuild {::Vsimmenu::MenuItemCan .mBar.activewindowx {Virtual Builder...}}} {can_filterwaveform {::Vsimmenu::MenuItemCan .mBar.activewindowx {Filter Waveform...(h)}}} {can_wprefs {::Vsimmenu::MenuItemCan .mBar.activewindowx {Wave Preferences...}}}} 
-#    <3: ::Wave <trace variable?>  
-#    >2: ::.vcop Action SetMenuState {{can_format {::Vsimmenu::MenuItemCan .mBar.activewindowx Format}} {can_edit_wave {::Vsimmenu::MenuItemCan .mBar.activewindowx {Wave Editor}}} {can_combine_signals {::Vsimmenu::MenuItemCan .mBar.activewindowx {Combine Signals...}}} {can_extract_bus {::Vsimmenu::MenuItemCan .mBar.activewindowx {Extract/Pad Bus...}}} {can_split_bus {::Vsimmenu::MenuItemCan .mBar.activewindowx {Split Bus...}}} {can_group {::Vsimmenu::MenuItemCan .mBar.activewindowx Group...}} {can_ungroup {::Vsimmenu::MenuItemCan .mBar.activewindowx Ungroup}} {can_object_declaration {::Vsimmenu::MenuItemCan .mBar.activewindowx {Object Declaration}}} {can_refresh {::Vsimmenu::MenuItemCan .mBar.activewindowx {Refresh Display}}} {can_assrtdbg {::Vsimmenu::MenuItemCan .mBar.activewindowx {Assertion Debug}}} {can_zoom {::Vsimmenu::MenuItemCan .mBar.activewindowx Zoom}} {can_expand_menu {::Vsimmenu::MenuItemCan .mBar.activewindowx {Expanded Time}}} {can_examine {::Vsimmenu::MenuItemCan .mBar.activewindowx Examine...}} {can_force {::Vsimmenu::MenuItemCan .mBar.activewindowx Force...}} {can_noforce {::Vsimmenu::MenuItemCan .mBar.activewindowx NoForce}} {can_clock {::Vsimmenu::MenuItemCan .mBar.activewindowx Clock...}} {can_mousemode {::Vsimmenu::MenuItemCan .mBar.activewindowx {Mouse Mode}}} {can_cursors {::Vsimmenu::MenuItemCan .mBar.activewindowx Cursors}} {can_wave_delete_pane {::Vsimmenu::MenuItemCan .mBar.activewindowx {Delete Window Pane (q)}}} {can_wave_remove_all {::Vsimmenu::MenuItemCan .mBar.activewindowx {Remove All}}} {can_signalsearch {::Vsimmenu::MenuItemCan .mBar.activewindowx {Signal Search...}}} {can_vbuild {::Vsimmenu::MenuItemCan .mBar.activewindowx {Virtual Builder...}}} {can_filterwaveform {::Vsimmenu::MenuItemCan .mBar.activewindowx {Filter Waveform...(h)}}} {can_wprefs {::Vsimmenu::MenuItemCan .mBar.activewindowx {Wave Preferences...}}}} 
-#    <1: ::Vsimmenu::DefaultMenuPostCmd .mBar.activewindowx {.vcop Action active_window_menu .mBar.activewindowx} SetMenuState 
-quit -sim
-# Compile of im.v was successful.
-# Compile of sccomp.v was successful.
-# Compile of sccpu.v failed with 1 errors.
-# 3 compiles, 1 failed with 1 error. 
-# Compile of im.v was successful.
-# Compile of sccomp.v was successful.
-# Compile of sccpu.v was successful.
-# 3 compiles, 0 failed with no errors. 
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v failed with 1 errors.
-# Compile of sccomp.v failed with 1 errors.
-# Compile of im.v was successful.
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-quit -sim
-# Compile of sccomp.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccomp.v was successful.
 # Compile of sccomp_tb.v was successful.
-# 2 compiles, 0 failed with no errors. 
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-run
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/clk \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/rst \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/instr \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/PC
-run
-run
-run
-restart
-run
-quit -sim
-# Compile of sccomp.v was successful.
-# Compile of sccomp_tb.v was successful.
-# Compile of sccpu.v failed with 1 errors.
-# 3 compiles, 1 failed with 1 error. 
+# Compile of dm.v was successful.
+# Compile of im.v was successful.
 # Compile of sccomp.v was successful.
 # Compile of sccomp_tb.v was successful.
 # Compile of sccpu.v was successful.
-# 3 compiles, 0 failed with no errors. 
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-# Error loading design
-# Compile of sccpu.v failed with 1 errors.
-# Compile of PC.v was successful.
-# Compile of EXT.v was successful.
-# Compile of ID.v failed with 1 errors.
-# 4 compiles, 2 failed with 2 errors. 
-# Compile of sccpu.v failed with 1 errors.
-# Compile of PC.v was successful.
-# Compile of EXT.v was successful.
-# Compile of ID.v failed with 2 errors.
-# 4 compiles, 2 failed with 3 errors. 
-# Compile of sccpu.v failed with 1 errors.
 # Compile of PC.v was successful.
 # Compile of EXT.v was successful.
 # Compile of ID.v was successful.
-# 4 compiles, 1 failed with 1 error. 
-# Compile of sccpu.v failed with 1 errors.
-# Compile of PC.v was successful.
-# Compile of EXT.v was successful.
-# Compile of ID.v was successful.
-# 4 compiles, 1 failed with 1 error. 
-# Compile of sccpu.v failed with 1 errors.
-# Compile of sccpu.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-run
-quit -sim
-# Compile of ID.v was successful.
-vsim -novopt work.sccomp_tb
-# vsim -novopt work.sccomp_tb 
-run
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/clk \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/rst \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/PC \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/NPC
-restart
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# Compile of sccpu.v was successful.
+# Compile of mux.v was successful.
+# Compile of RF.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of alu.v failed with 1 errors.
 # Compile of EXE.v was successful.
 # Compile of MEM.v was successful.
-# Compile of WB.v failed with 1 errors.
-# 4 compiles, 1 failed with 1 error. 
-# Compile of WB.v failed with 1 errors.
 # Compile of WB.v was successful.
+# 16 compiles, 1 failed with 1 error. 
+# Compile of alu.v was successful.
 vsim -novopt work.sccomp_tb
 # vsim -novopt work.sccomp_tb 
-add wave -position insertpoint  \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/clk \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/rst \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/instr \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/PC \
-sim:/sccomp_tb/U_SCCOMP/U_SCCPU/NPC
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim

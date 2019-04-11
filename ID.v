@@ -15,3 +15,5 @@ always@(posedge clk,posedge rst)
 		end
 	end	
 endmodule
+//ID级流水线更新数据模块，类似闸门的作用
+//此模块仅仅起到更新数据的用途，流水线CPU的基本要求就是一个周期仅更新一次基本信号量，以此保证将一条指令分成五个周期进行

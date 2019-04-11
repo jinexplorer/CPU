@@ -1,21 +1,21 @@
-
-// testbench for simulation
+`timescale 1ns/1ns
+// 测试文件
 module sccomp_tb();
-    
+ //定义输入输出端口   
    reg  clk, rstn;
    reg  [4:0] reg_sel;
    wire [31:0] reg_data;
     
-// instantiation of sccomp    
+
+//实例化顶层文件
    sccomp U_SCCOMP(
       .clk(clk), .rstn(rstn), .reg_sel(reg_sel), .reg_data(reg_data)
    );
 
-  	integer foutput;
-  	integer counter = 0;
-   
-   initial begin
-      $readmemh( "456.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
+ //初始化信号量并加载指令存储器，将指令添加到存储器中  
+   initial 
+   begin
+      $readmemh( "studentnosorting.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
       clk = 1;
       rstn = 1;
       #5 ;
@@ -25,24 +25,9 @@ module sccomp_tb();
       #1000 ;
       reg_sel = 7;
    end
-   
-    always begin
-    #(50) clk = ~clk;
-	   
-/*    if (clk == 1'b1) begin
-      if ((counter == 1000) || (U_SCCOMP.U_SCPU.PC === 32'hxxxxxxxx)) begin
-        $stop;
-      end
-      else begin
-        if (U_SCCOMP.PC == 32'h00000100) begin
-          counter = counter + 1;
-          $stop;
-        end
-        else begin
-          counter = counter + 1;
-        end
-      end
-    end
- */ end //end always
-   
+ //50ns一次时钟翻转 
+    always 
+	begin
+		#(50) clk = ~clk;
+	end
 endmodule

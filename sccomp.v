@@ -1,3 +1,4 @@
+//顶层文件
 module sccomp(clk, rstn, reg_sel, reg_data);
    input          clk;
    input          rstn;

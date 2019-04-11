@@ -17,3 +17,4 @@ module dm(clk, DMWr, addr, din, dout);
    assign dout = dmem[addr[8:2]];
     
 endmodule    
+//始终读取ROM存储器中的数据，仅当有写信号且有时钟之时才将数据写入ROM

@@ -5,19 +5,19 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	sccomp_tb
 
-} {} {}} D:/os_practica/sc1cpu/ctrl.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/ctrl.v
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module ctrl
-
-Top level modules:
-	ctrl
-
 } {} {}} D:/os_practica/sc1cpu/sccomp.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/sccomp.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module sccomp
 
 Top level modules:
 	sccomp
+
+} {} {}} D:/os_practica/sc1cpu/ctrl.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
 
 } {} {}} D:/os_practica/sc1cpu/im.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/im.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
@@ -36,19 +36,19 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	WB
 
-} {} {}} D:/os_practica/sc1cpu/dm.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/dm.v
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module dm
-
-Top level modules:
-	dm
-
 } {} {}} D:/os_practica/sc1cpu/EXT.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/EXT.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module EXT
 
 Top level modules:
 	EXT
+
+} {} {}} D:/os_practica/sc1cpu/dm.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
 
 } {} {}} D:/os_practica/sc1cpu/EXE.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/EXE.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
@@ -91,7 +91,7 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	ID
 
-} {} {}} D:/os_practica/sc1cpu/sccpu.v {1 {vlog -work work -vopt {D:\os_practica\sc1cpu\sccpu.v}
+} {} {}} D:/os_practica/sc1cpu/sccpu.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/sccpu.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module sccpu
 

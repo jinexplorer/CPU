@@ -1,3 +1,5 @@
+//2，4，8,16.四种模式的的多路选择器
+
 // mux2
 module mux2 #(parameter WIDTH = 8)
              (d0, d1,
