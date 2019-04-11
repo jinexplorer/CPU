@@ -1,4 +1,11 @@
-D:/os_practica/sc1cpu/ctrl.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/ctrl.v
+D:/os_practica/sc1cpu/sccomp_tb.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/sccomp_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}} D:/os_practica/sc1cpu/ctrl.v {1 {vlog -work work -vopt D:/os_practica/sc1cpu/ctrl.v
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module ctrl
 
