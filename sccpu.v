@@ -53,7 +53,7 @@ module sccpu( clk, rst, instr, readdata,PC, MemWrite, aluout, writedata, reg_sel
    assign jpc={ID_PC[31:18],ID_INS[15:0],2'b00};
    //用于寄存器跳转，主要有jalr，jr
    assign npc=ID_A;
-   //用于fbne，beq跳转
+   //用于bne，beq跳转
    assign bpc=ID_PC+{14'b0,ID_IMM16,2'b00};
    
 //切分指令段
