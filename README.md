@@ -15,5 +15,21 @@ lw型的数据冒险通过阻塞一个周期加旁路解决
 
 此项目位实现异常处理模块
 
+sccomp_tb.v 是信号激励文件，是整个CPU的入口
+sccomp.v 是与内部CPU和外部指令寄存器和内存打交道的入口
+sccpu.v 是整个工程的核心，执行CPU的所有事务
+ctrl.v 是控制器
+alu.v 是运算器
+PC. ID.v EXE.v MEM.v WB.v是控制五级流水线信号的更新部件，一个周期运行一次
+EXT.v 是立即数的拓展文件
+ctrl_encode_def.v 是类似C语言的一些宏的东西
+dm.v 是外部内存ROM文件
+im.v 是指令存储器
+mux.v 是多路选择器
+mipstest_pipelinedloop.asm 是测试文件的MIPS指令
+mipstest_pipelinedloop.dat 是测试文件汇编之后的机器码
+studentnosorting.asm 是学号排序测试文件的MIPS指令
+studentnosorting.dat 是学号排序测试文件汇编之后的机器码
+
 
 作者邮箱:1059024691@qq.com
