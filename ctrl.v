@@ -68,7 +68,7 @@ module ctrl(ID_Op, ID_Funct,ID_rs,ID_rt,ID_Zero,
 						
 	//默认情况下指令的写是写到rd寄存器，但是在一些立即数包括lw的运算上是写到rt上的
 	//更奇怪的是jal是写到31号寄存器的,但是却没有31号寄存器的标识！！
-	assign ID_writereg_to_rt [0] = i_lw  | i_addi | i_ori | i_lui | i_slti | i_jalr| i_andi;
+	assign ID_writereg_to_rt [0] = i_lw  | i_addi | i_ori | i_lui | i_slti | i_andi;
 	assign ID_writereg_to_rt [1] = i_jal;
 	//默认情况下往寄存器中写的是数，但在jal和jalr的情况下，往31号寄存中写的是PC地址
 	assign ID_jal = i_jal | i_jalr;

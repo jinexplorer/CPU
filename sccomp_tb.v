@@ -15,7 +15,7 @@ module sccomp_tb();
  //初始化信号量并加载指令存储器，将指令添加到存储器中  
    initial 
    begin
-      $readmemh( "studentnosorting.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
+      $readmemh( "mipstest_pipelinedloop.dat" , U_SCCOMP.U_IM.ROM); // load instructions into instruction memory
       clk = 1;
       rstn = 1;
       #5 ;
